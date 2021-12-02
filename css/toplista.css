@@ -1,0 +1,9 @@
+form input,
+form select {
+    display: inline;
+    margin-right: 10px;
+}
+
+form input::placeholder {
+    color: #4c4c4c
+}

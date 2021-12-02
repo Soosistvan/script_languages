@@ -1,0 +1,25 @@
+form {
+    width: 300px;
+    display: block;
+    margin: 70px auto;
+}
+
+input {
+    transition: .3s all;
+    width: 100% !important;
+}
+
+input::placeholder {
+    color: black;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    width: 100px !important;
+    margin: 20px auto;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+}

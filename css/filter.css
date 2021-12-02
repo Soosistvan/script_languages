@@ -1,0 +1,8 @@
+tr td input {
+    width: 100px !important;
+    height: 15px !important;
+}
+
+tr td input[type=submit] {
+    height: initial !important;
+}
